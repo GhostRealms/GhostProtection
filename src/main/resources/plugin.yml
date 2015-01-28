@@ -1,0 +1,13 @@
+name: RealmsProtection
+version: {$project.version}
+main: net.ghostrealms.protection.GhostProtection
+author: Rmarmorstein
+authors: [GhostRealms Staff]
+commands:
+  chunk-info:
+    description: debug command for information based on the current chunk
+    permission: realms.chunk-info
+permissions:
+  realms.chunk-info:
+    description: debug command permission node
+    default: OP

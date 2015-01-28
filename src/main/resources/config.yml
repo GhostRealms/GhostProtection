@@ -1,0 +1,12 @@
+registration:
+  chunkload: true
+cache:
+  loaded-only: true
+storage:
+  driver: h2
+  database: realms
+  credentials:
+    username: root
+    password: password
+  hostname: localhost
+  port: 6969
